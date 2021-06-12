@@ -1,40 +1,9 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 import pandas as pd
-
-
-# In[2]:
-
-
 students = ['Karteek','Sowjanya','Kiran','Madhuri']
-
-
-# In[3]:
-
-
 pd.Series(students)
-
-
-# In[4]:
-
-
 numbers = [1,2,3,4]
 pd.Series(numbers)
-
-
-# In[5]:
-
-
 students = ['Karteek','Sowjanya','Kiran',None]
-
-
-# In[6]:
-
-
 pd.Series(students)
 
 
